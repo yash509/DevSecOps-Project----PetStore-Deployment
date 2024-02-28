@@ -22,7 +22,7 @@
         password: dockerhub password/PAT
 
     - name: Push image
-      command: docker push sevenajay/petstore:latest
+      command: docker push yash5090/petstore:latest
 
     - name: Run container
-      command: docker run -d --name pet1 -p 8081:8080 sevenajay/petstore:latest
+      command: docker run -d --name pet1 -p 8081:8080 yash5090/petstore:latest
